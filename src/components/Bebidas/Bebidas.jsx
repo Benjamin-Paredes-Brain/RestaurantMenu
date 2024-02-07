@@ -1,7 +1,7 @@
 export const Bebidas = () => {
 
     return (
-        <div style={{ height: '100vh' , margin: "0 20px" }}>
+        <div className="h-80vh">
             <p>Bebidas</p>
         </div>
     )

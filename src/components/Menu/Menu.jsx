@@ -1,7 +1,7 @@
 export const Menu = () => {
 
     return (
-        <div style={{ height: '100vh' , margin: "0 20px"}}>
+        <div className="h-80vh">
             <p>Menú</p>
         </div>
     )
