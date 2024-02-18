@@ -13,7 +13,7 @@ export const Home = () => {
   return (
     <>
       
-      <div className="fixed left-0 right-0 bg-customColor2 mx-5 py-2">
+      <div className="fixed left-0 right-0 bg-customColor2 px-5 pb-2">
         <div className="flex items-center max-w-full rounded-3xl bg-customColor1 font-black text-xl">
           <Link to="/home/promociones" className={activeClasses(isActivePromociones)}>
             Promociones
