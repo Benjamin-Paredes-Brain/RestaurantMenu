@@ -18,9 +18,12 @@ export const Header = () => {
   }
 
   return (
-    <div className="flex items-center justify-between pb-5 h-20vh">
-      <div className="text-white text-3xl">{title}</div>
-     <div className="w-20"><img src="/public/restaurantLogo.png"/></div>
+    <div className="h-20">
+      <div className="fixed top-0 left-0 right-0 flex items-center justify-between bg-customColor2 p-5 pb-0">
+        <div className="text-white text-3xl">{title}</div>
+        <div className="w-20"><img src="/restaurantLogo.png" /></div>
+      </div>
     </div>
   );
+  
 };

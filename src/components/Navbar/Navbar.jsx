@@ -30,13 +30,16 @@ export const Navbar = () => {
     };
 
     return (
-        <div className="flex items-center justify-center mx-6">
-            <nav className="flex justify-between items-baseline text-2xl font-bold bg-white rounded-full fixed bottom-10 p-1 w-11/12">
-                <IconWithText to="/home" icon={"home"} text="Inicio" keyName="home" />
-                <IconWithText to="/menu" icon={"menu_book"} text="Menú" keyName="menu" />
-                <IconWithText to="/bebidas" icon={"local_bar"} text="Bebidas" keyName="bebidas" />
-                <IconWithText to="/postres" icon={"icecream"} text="Postres" keyName="postres" />
-            </nav>
+        <div className="h-20">
+            <div className='fixed bottom-0 left-0 right-0 bg-customColor2 pb-6'>
+                <nav className="flex items-center justify-between font-bold text-xl  bg-white mx-5 rounded-full p-1">
+                    <IconWithText to="/home" icon={"home"} text="Inicio" keyName="home" />
+                    <IconWithText to="/menu" icon={"menu_book"} text="Menú" keyName="menu" />
+                    <IconWithText to="/bebidas" icon={"local_bar"} text="Bebidas" keyName="bebidas" />
+                    <IconWithText to="/postres" icon={"icecream"} text="Postres" keyName="postres" />
+                </nav>
+            </div>
         </div>
     );
 };
+
