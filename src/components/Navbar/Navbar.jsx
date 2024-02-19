@@ -30,7 +30,7 @@ export const Navbar = () => {
     };
 
     return (
-        <div className="h-20">
+        <div className='h-20'>
             <div className='fixed bottom-0 left-0 right-0 bg-customColor2 pb-6'>
                 <nav className="flex items-center justify-between font-bold text-xl  bg-white mx-5 rounded-full p-1">
                     <IconWithText to="/home" icon={"home"} text="Inicio" keyName="home" />

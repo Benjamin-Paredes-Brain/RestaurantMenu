@@ -9,7 +9,7 @@ export const ItemList = withItemData(({ loading, itemData }) => {
                 {
                     itemData.map((item) => (
 
-                        <Link to={`/home/item/${item.id}`} key={item.id} className="flex flex-col items-center w-40 gap-3 bg-customColor1 rounded-2xl p-3 m-3">
+                        <Link to={`/home/item/${item.id}`} key={item.id} className="flex flex-col items-center w-full gap-3 bg-customColor1 rounded-2xl p-3 m-3">
                             <img src={item.image} alt={item.title} className="w-full h-24 object-cover rounded-2xl" />
                             <p className="text-white text-center m-0">{item.title}</p>
                         </Link>
